@@ -1,14 +1,16 @@
 .container-main .container-full .container-menu {
     width: 74px;
     height: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    z-index: 100;
 }
 
 .container-main .container-full .container-menu .menu-container {
     width: 74px;
     height: 375px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     border-radius: 5px;
+    background-color: var(--color-bg);
 }
 
 .container-main .container-full .container-menu .menu-container input {
@@ -28,7 +30,7 @@
     list-style: none;
     text-align: center;
     flex: auto;
-    border-bottom: .5px solid #EEEEEE;
+    /*border-bottom: .1px solid #EEEEEE;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +41,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+    color: rgba(255,255,255,.85);
 }
 
 
@@ -47,4 +50,5 @@
     height: 30px;
     display: block;
     margin: 0 auto;
+    color: rgba(255,255,255,.85);
 }
