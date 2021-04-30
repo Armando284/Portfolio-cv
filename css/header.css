@@ -7,9 +7,9 @@
     border-radius: 3px;
     margin-left: 8px;
 
-    -webkit-box-shadow: -18px -15px 5px 0px rgba(26, 26, 26, 0.75);
-    -moz-box-shadow: -18px -15px 5px 0px rgba(026, 26, 26, 0.75);
-    box-shadow: -18px -15px 5px 0px rgba(26, 26, 26, 0.75);
+    -webkit-box-shadow: -18px -15px 5px 0px rgb(37,37,42);
+    -moz-box-shadow: -18px -15px 5px 0px rgb(37,37,42);
+    box-shadow: -18px -15px 5px 0px rgb(37,37,42);
     /*background-color: rgb(26, 26, 26, 0.75);*/
 }
 
@@ -139,11 +139,18 @@
 
 .container-header .pictureMe  .footer-header .download .cvdownload h3 {
     font-size: 16px;
+    color: #EEEEEE;
 }
 
 .container-header .pictureMe  .footer-header .download .cvdownload h3 span img {
     display: inline;
     width: 10%;
+    
+}
+
+.container-header .pictureMe  .footer-header .contact-me .contactme h3 {
+    font-size: 16px;
+    color: #EEEEEE;
 }
 
 .container-header .pictureMe  .footer-header .contactme span img {
