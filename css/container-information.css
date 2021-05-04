@@ -1,0 +1,26 @@
+.container-information {
+    width: 100%;
+    /*min-width: 645px;*/
+    /*max-width: 705px;*/
+    /*height: 535px;*/
+    height: 95%;
+    /*min-height: 535px;
+    max-height: 645px;*/
+    background-color: var(--color-bg);
+    /*background-color: #000;*/
+    border-radius: 0 3px 3px 0;
+}
+
+.container-information picture {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-information picture .logo {
+    display: block;
+    width: 50%;
+    
+}
