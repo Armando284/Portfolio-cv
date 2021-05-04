@@ -76,9 +76,26 @@
     /*clip-path: polygon(50% 100%, 100% 0, 100% 100%);
     clip-path: polygon(50% 100%, 0 0, 0 100%);*/
     clip-path: polygon(50% 80%, 100% 0, 100% 80%, 50% 80%, 0 80%, 0 0);
-
 }
 
+.container-header .pictureMe .me .name-me {
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+    color:  #EEEEEE;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.container-header .pictureMe .me .ocupation {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: var(--color-primary);
+    margin-top: 20px;
+    font-weight: 100;
+}
 
 
 
@@ -138,7 +155,7 @@
 }
 
 .container-header .pictureMe  .footer-header .download .cvdownload h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: #EEEEEE;
 }
 
@@ -149,7 +166,7 @@
 }
 
 .container-header .pictureMe  .footer-header .contact-me .contactme h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: #EEEEEE;
 }
 
