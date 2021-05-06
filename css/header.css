@@ -8,6 +8,8 @@
     margin-left: 8px;
 
     position: relative;
+    top: 0;
+    left: 0;
     /*-webkit-box-shadow: -18px -15px 5px 0px rgb(37,37,42);
     -moz-box-shadow: -18px -15px 5px 0px rgb(37,37,42);
     box-shadow: -18px -15px 5px 0px rgb(37,37,42);

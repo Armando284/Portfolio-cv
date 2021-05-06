@@ -1,0 +1,15 @@
+.container-information-about-me {
+    width: 100%;
+    height: 100%;
+    /*background-color: var(--color-bg);*/
+    background-color: red;
+    border-radius: 0 3px 3px 0;
+    transform: translateX(100%);
+    position: absolute;
+    top: 0;
+}
+
+
+#about-me:checked ~ .container-information-about-me {
+    transform: translateX(0)
+}
