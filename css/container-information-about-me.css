@@ -4,9 +4,10 @@
     /*background-color: var(--color-bg);*/
     background-color: red;
     border-radius: 0 3px 3px 0;
-    transform: translateX(100%);
+    transform: translateX(30%);
     position: absolute;
     top: 0;
+    left: 50%;
 }
 
 
