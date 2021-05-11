@@ -17,6 +17,16 @@
     /*display: none;*/
 }
 
+.container-main .container-full .container-menu .menu-container .btn-home img {
+    width: 30px;
+}
+.container-main .container-full .container-menu .menu-container .btn-about img {
+    width: 30px;
+}
+.container-main .container-full .container-menu .menu-container .btn-resumen img {
+    width: 30px;
+}
+
 .container-main .container-full .container-menu .menu-container .menu {
     width: 100%;
     height: 100%;

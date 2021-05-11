@@ -16,7 +16,7 @@
     background-color: rgb(26, 26, 26, 0.75);*/
 }
 
-.container-header::before {
+/*.container-header::before {
     content: '';
     position: absolute;
     left: -15px;
@@ -30,7 +30,7 @@
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
-}
+}*/
 
 
 .container-header .bg-img {
