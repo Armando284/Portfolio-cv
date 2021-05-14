@@ -1,4 +1,4 @@
-const btnAboutme = document.getElementById("btn-aboutme");
+/*const btnAboutme = document.getElementById("btn-aboutme");
     btnAboutme.addEventListener("click", sliderAbautMe);
     btnHome = document.getElementById("btn-home");
     btnHome.addEventListener("click", sliderhome);
@@ -20,4 +20,35 @@ function sliderresumen () {
     let inforesumen = document.getElementById("inforesumen");
     //infoabout.style.transform = "translatex(0)"
     inforesumen.style.left=(0);
+}*/
+
+var divOpen = '';
+
+document.addEventListener('DOMContentionLoaded', () => {
+
+    const btnAboutme = document.getElementById("btn-aboutme");
+    const divOpenAbout = document.getElementById("infabout");
+    btnAboutme.addEventListener('click', () => {
+        open(divOpenAbout);   
+    }
+)
+})
+
+    const btnResume = document.getElementById("btn-resume");
+    const divOpenResume = document.getElementById("inforesaumen");
+    btnResume.addEventListener('click', () => {
+        open(divOpenResume);   
+    }
+)
+
+function open(elemento) {
+    if(divOpen != null) {
+        cerrar(divOpen)
+    }
+    elemento.style.left=(0);
+    divOpen = elemento;
+}
+
+function cerrar(elemento) {
+    elemento.style,left='200%';
 }
