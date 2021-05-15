@@ -24,7 +24,7 @@ function sliderresumen () {
 
 var divOpen = '';
 
-document.addEventListener('DOMContentionLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
     const btnAboutme = document.getElementById("btn-aboutme");
     const divOpenAbout = document.getElementById("infabout");
@@ -50,5 +50,5 @@ function open(elemento) {
 }
 
 function cerrar(elemento) {
-    elemento.style,left='200%';
+    elemento.style.left='200%';
 }
